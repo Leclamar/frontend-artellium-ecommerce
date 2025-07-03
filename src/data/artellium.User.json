@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012345a"
+  },
+  "user_id": 1,
+  "username": "admin_master",
+  "password": "$2b$10$hashedpassword123",
+  "mask": "ADM001",
+  "use": "admin",
+  "logs": [
+    "2024-07-01T08:00:00Z: Login successful",
+    "2024-07-01T08:15:00Z: Created new commission",
+    "2024-07-01T09:30:00Z: Approved payment request"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012345b"
+  },
+  "user_id": 2,
+  "username": "john_customer",
+  "password": "$2b$10$hashedpassword456",
+  "mask": "CUST002",
+  "use": "customer",
+  "logs": [
+    "2024-07-01T10:00:00Z: Account created",
+    "2024-07-01T10:30:00Z: First commission posted",
+    "2024-07-01T11:00:00Z: Payment submitted"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012345c"
+  },
+  "user_id": 3,
+  "username": "agent_sarah",
+  "password": "$2b$10$hashedpassword789",
+  "mask": "AGT003",
+  "use": "agent",
+  "logs": [
+    "2024-07-01T09:00:00Z: Agent profile activated",
+    "2024-07-01T09:30:00Z: Location updated",
+    "2024-07-01T10:15:00Z: Commission accepted"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012345d"
+  },
+  "user_id": 4,
+  "username": "mike_agent",
+  "password": "$2b$10$hashedpassword012",
+  "mask": "AGT004",
+  "use": "agent",
+  "logs": [
+    "2024-07-01T08:45:00Z: Daily check-in",
+    "2024-07-01T12:00:00Z: Commission completed",
+    "2024-07-01T14:30:00Z: Payment received"
+  ]
+}]

@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012346a"
+  },
+  "sender_id": 2,
+  "receiver_id": 3,
+  "content": "Hi Sarah, are you available for the logo design project?",
+  "timestamp": {
+    "$date": "2024-07-01T10:30:00.000Z"
+  },
+  "is_read": false
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012346b"
+  },
+  "sender_id": 3,
+  "receiver_id": 2,
+  "content": "Yes, I'm available. Can we discuss the requirements?",
+  "timestamp": {
+    "$date": "2024-07-01T10:45:00.000Z"
+  },
+  "is_read": true
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012346c"
+  },
+  "sender_id": 1,
+  "receiver_id": 2,
+  "content": "Your commission has been approved and is now active.",
+  "timestamp": {
+    "$date": "2024-07-01T11:00:00.000Z"
+  },
+  "is_read": false
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012346d"
+  },
+  "sender_id": 4,
+  "receiver_id": 1,
+  "content": "Commission #12345 has been completed. Please review.",
+  "timestamp": {
+    "$date": "2024-07-01T14:30:00.000Z"
+  },
+  "is_read": false
+}]

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012347c"
+  },
+  "user_id": 1,
+  "action_name": "payment_approved",
+  "details": {
+    "payment_id": "66a1b2c3d4e5f6789012346",
+    "amount": "150",
+    "commission_id": "66a1b2c3d4e5f6789012345"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012349a"
+  },
+  "user_id": 2,
+  "amount": 150,
+  "status": "paid",
+  "payment_date": {
+    "$date": "2024-07-01T11:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012349b"
+  },
+  "user_id": 5,
+  "amount": 500,
+  "status": "pending",
+  "payment_date": {
+    "$date": "2024-07-01T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a1b2c3d4e5f6789012349c"
+  },
+  "user_id": 6,
+  "amount": 75,
+  "status": "failed",
+  "payment_date": {
+    "$date": "2024-07-01T13:15:00.000Z"
+  }
+}]
