@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.23.2",
+    "@clerk/nextjs": "^6.23.3",
     "dotenv": "^17.0.1",
     "inngest": "^3.40.0",
     "inngest-cli": "^1.8.2",
@@ -23,6 +23,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "jest": "^30.0.4",
+    "supertest": "^7.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

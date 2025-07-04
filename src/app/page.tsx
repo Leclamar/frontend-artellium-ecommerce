@@ -9,7 +9,7 @@ const Homepage = () => {
         <Navbar />
         <main className="pb-4">
           <div id="banner" className="border max-w-screen h-96">
-
+            
           </div>
           <article className="mx-24 max-w-screen">
             <section className="mt-12 text-center">
